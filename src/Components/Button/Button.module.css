@@ -1,0 +1,33 @@
+/* Estilização do botão */
+.botao {
+    padding: var(--botao-padding);
+    border-radius: var(--botao-radius);
+    color: var(--botao-text-color);
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+/* Separando as variações de cores para o botão */
+.primary {
+    background-color: var(--botao-primary-bg);
+}
+
+.primary:hover {
+    background-color: var(--botao-hover-bg);
+}
+
+.secondary {
+    background-color: var(--botao-secondary-bg);
+}
+
+.secondary:hover {
+    background-color: var(--botao-hover-bg);
+}
+
+/* Caso o botão esteja desativado */
+.botao:disabled {
+    background-color: #ccc;
+    color: #000;
+    cursor: not-allowed;
+}

@@ -1,0 +1,29 @@
+/* CSS geral */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family-base);
+}
+
+/* Tokens globais */
+:root {
+    /* Tokens globais - cores */
+    --blue-700: #1222cd;
+    --red-600: #df1313;
+    --green-800: #073b06;
+
+    /* Tokens de fonte */
+    --font-family-base: "Inter", "Arial", sans-serif;
+    --text-sm: 1rem;
+    --text-md: 1.125rem;
+    --text-lg: 1.25rem;
+
+    /* Tokens de componente - botões */
+    --botao-primary-bg: var(--blue-700);
+    --botao-secondary-bg: var(--red-600);
+    --botao-hover-bg: var(--green-800);
+    --botao-radius: 20px;
+    --botao-padding: 8px 16px;
+    --botao-text-color: #fff;
+}
