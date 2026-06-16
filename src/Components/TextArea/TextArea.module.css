@@ -1,0 +1,16 @@
+/* Estilização do textarea */
+.textarea {
+    resize: var(--textarea-horizontal);
+    font-size: var(--font-md);
+    border: var(--textarea-border);
+    border-radius: var(--textarea-radius);
+    padding: var(--textarea-padding);
+}
+
+.textarea::placeholder {
+    color: var(--textarea-placeholder-color);
+}
+
+.textarea:focus {
+    outline: 2px solid var(--green-800);
+}

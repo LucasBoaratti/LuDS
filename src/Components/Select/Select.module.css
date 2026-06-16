@@ -1,0 +1,7 @@
+/* Estilização do select */
+.select {
+    border: var(--select-border);
+    border-radius: var(--select-radius);
+    background-color: var(--white);
+    color: var(--black);
+}

@@ -12,10 +12,12 @@
     --blue-700: #1222cd;
     --red-600: #df1313;
     --green-800: #073b06;
+    --white: #fff;
+    --black: #000;
 
     /* Tokens de fonte */
     --font-family-base: "Inter", "Arial", sans-serif;
-    --text-sm: 1rem;
+    --text-sm: 1rem; 
     --text-md: 1.125rem;
     --text-lg: 1.25rem;
 
@@ -26,4 +28,27 @@
     --botao-radius: 20px;
     --botao-padding: 8px 16px;
     --botao-text-color: #fff;
+
+    /* Tokens de componente - input */
+    --input-bg: var(--white);
+    --input-placeholder-color: #827c7c;
+    --input-padding: 5px;
+    --input-border: none;
+    --input-radius: 10px;
+    --input-width: 100%;
+
+    /* Tokens de componente - checkbox */
+    --checkbox-bg: var(--green-800);
+    --checkbox-width: 20px;
+    --checkbox-height: 20px;
+
+    /* Tokens de componente - textarea */
+    --textarea-placeholder-color: #827c7c;
+    --textarea-border: 2px solid #ccc;
+    --textarea-radius: 10px;
+    --textarea-padding: 3px;
+
+    /* Tokens de componente - select */
+    --select-border: 1px solid #ccc;
+    --select-radius: 10px;
 }

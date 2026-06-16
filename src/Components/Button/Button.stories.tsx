@@ -18,6 +18,7 @@ export const Primary: Story = {
     args: {
         descricao: 'Botão Primário',
         variant: 'primary',
+        isDisabled: false,
     }
 }
 
@@ -25,6 +26,7 @@ export const Secondary: Story = {
     args: {
         descricao: 'Botão Secundário',
         variant: 'secondary',
+        isDisabled: false,
     }
 }
 

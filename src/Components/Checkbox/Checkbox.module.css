@@ -1,0 +1,15 @@
+/* Estilização do checkbox */
+.checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: var(--white);
+    border: 2px solid var(--green-800);
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: var(--checkbox-width);
+    height: var(--checkbox-height);
+}
+
+.checkbox:checked {
+    background-color: var(--checkbox-bg);
+}

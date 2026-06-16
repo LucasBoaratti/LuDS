@@ -1,0 +1,22 @@
+/* Estilização do input */
+.input {
+    background-color: var(--input-bg);
+    padding: var(--input-padding);
+    font-size: var(--font-md);
+    border: var(--input-border);
+    border-radius: var(--input-radius);
+    width: var(--input-width);
+    transition: outline 0.3s ease;
+    border: 1px solid #ccc;
+}
+
+/* Placeholder */
+.input::placeholder {
+    color: var(--input-placeholder-color);
+    opacity: 1;
+}
+
+/* Foco no input */
+.input:focus {
+    outline: 2px solid var(--green-800);
+}
