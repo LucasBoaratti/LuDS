@@ -10,9 +10,9 @@ interface PropsInput extends InputHTMLAttributes<HTMLInputElement> {
 
 export function Input({ label, id, ...rest }: PropsInput) {
     return (
-        <>
+        <div className={styles.espacamento}>
             <label htmlFor={id}>{label}</label>
             <input id={id} className={styles.input} {...rest} />
-        </>
+        </div>
     );
 }

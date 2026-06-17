@@ -17,6 +17,10 @@ export const Default: Story = {
         id: "sexo",
         options: [
             {
+                label: "Selecione...",
+                value: "",
+            },
+            {
                 label: "Masculino",
                 value: "masculino",
             },

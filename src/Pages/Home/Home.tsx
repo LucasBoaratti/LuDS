@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Button } from "../Components/Button/Button";
-import { Input } from "../Components/Input/Input";
-import { Checkbox } from "../Components/Checkbox/Checkbox";
-import { TextArea } from "../Components/TextArea/TextArea";
-import { Select } from "../Components/Select/Select";
+import { Button } from "../../Components/Button/Button";
+import { Input } from "../../Components/Input/Input";
+import { Checkbox } from "../../Components/Checkbox/Checkbox";
+import { TextArea } from "../../Components/TextArea/TextArea";
+import { Select } from "../../Components/Select/Select";
 
 export function Home() {
     const [numero, setNumero] = useState<number>(0);
@@ -16,6 +16,10 @@ export function Home() {
     }
 
     const opcoesSexo = [
+        {
+            label: "Selecione...",
+            value: "",
+        },
         {
             label: "Masculino",
             value: "masculino",
