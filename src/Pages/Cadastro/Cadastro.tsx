@@ -43,9 +43,6 @@ export function Cadastro() {
             
             return;
         }
-        else {
-            alert("Seja bem-vindo(a)!");
-        }
     }
 
     return (
